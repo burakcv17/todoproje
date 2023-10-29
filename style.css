@@ -1,0 +1,141 @@
+body{background-color: #000000ec;
+color: #ffffffbb;}
+.container {
+    width: 90%;
+    background-color: #ffffff3f;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    margin: 5rem auto;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .5);
+    opacity: 0.8;}
+
+#all {
+    width: 25rem;
+    position: absolute;
+    background-color: rgb(16, 158, 163);
+    border: 0px solid black;
+}
+
+#uncheckall {
+    width: 25rem;
+    background-color: rgb(11, 115, 119);
+    border: 0px solid black;
+    position: fixed;
+    right: 500px;
+}
+
+#inputGroup-sizing-sm{
+    background-color: rgb(42, 128, 3);
+    border-radius: 0.5rem;
+}
+#addNewTask {
+    border: 0px solid black;
+    background-color: rgb(48, 117, 8);
+}
+#addInput{
+    background-color: #ffffff46;
+    border-radius: 0.5rem;  
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .5);
+    border: 0px solid black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 40px;
+}
+
+#paket{
+    text-align: center;
+}
+
+#addInput::placeholder {
+    position: absolute; 
+    left: 15px;   
+    color: rgb(255, 255, 255);
+}
+
+#fontawecomeicons {
+    vertical-align: middle;
+    
+}
+#checkBox {
+    border-color:cadetblue; 
+}
+/*! alert css */
+.alert-wrapper{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+}
+
+.alert-success,
+.alert-warning{
+    padding: 1rem;
+    color: #6b1010;
+    font-weight: bold;
+    width: 25rem;
+    text-align: center;
+    display: none;
+}
+
+.alert-warning{
+    background-color: #dc3545;
+}
+
+.alert-success{
+    background-color: #1aad6b;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(360deg);
+    opacity: 0;
+}
+
+.todo{
+    margin: 0.5rem;
+    background-color: #000000;
+    color: #000;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all ease;
+}
+
+.todo li{
+    width: 100%;
+    padding: 0 0.5rem;
+}
+
+.fa-trash, .fa-pen-to-square, .fa-floppy-disk { 
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+
+
+#completed{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+#delall {
+background-color: #a0101e;
+border: 0px solid black;
+}
+
+#delchecked {
+    background-color: #b4590f;
+    border: 0px solid black;
+}
+
+[contenteditable] {
+    background: rgba(0, 0, 0, 0.24);
+
+  }
+
+#footer_id:hover{   
+    display: none!important;
+}
+#footer_id {
+    text-align: center;
+}
